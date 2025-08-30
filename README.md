@@ -32,11 +32,8 @@ mvn clean install
 
 Running Tests
 Run a single test file:
-mvn test -Dtest=BalsamCartTest
+Right Click on BalsamCartTest.java Run As > TestNG Test (Alt + Shift + X + N)
 
-
-Run via testng.xml:
-mvn test -DsuiteXmlFile=src/test/resources/testng.xml
 
 Reports
 After each run, HTML reports are generated in the reports/ folder.
